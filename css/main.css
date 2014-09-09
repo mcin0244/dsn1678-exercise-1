@@ -52,7 +52,10 @@ img {
 
 .bucket-body{
   color:#ffffff;
-  float: center;
+  position: absolute;
+  bottom:5px;
+  right:25px;
+  margin: 10px 10px 10px 10px;
 }
 
 .bucket p{
