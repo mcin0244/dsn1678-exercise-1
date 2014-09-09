@@ -23,6 +23,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: #cccccc;
 }
 
 img {
@@ -30,19 +31,17 @@ img {
   width: 100%;
 }
 
-@charset "UTF-8";
-/* CSS Document */
-
 .bucket{
-  border: 1px solid rgb(49, 53, 61);
+  border: 0px solid rgb(49, 53, 61);
   overflow: hidden;
-  width: 50%;
+  width: 100%;
   float: center;
+  background-color:#ffffff;
 }
 
 .bucket img{
-  float: left;
-  margin: 10px 10px 10px 10px;
+  float: center;
+  width: 100%;
 }
 
 
@@ -52,7 +51,8 @@ img {
 }
 
 .bucket-body{
-  overflow: hidden;
+  color:#ffffff;
+  float: center;
 }
 
 .bucket p{
@@ -60,11 +60,6 @@ img {
 }
 
 .bucket h2{
-  margin: 10px 10px 10px 10px;
-  float: center;
-}
-
-.bucket h3{
   margin: 10px 10px 10px 10px;
   float: center;
 }
