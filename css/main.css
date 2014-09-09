@@ -29,3 +29,43 @@ img {
   display: block;
   width: 100%;
 }
+
+@charset "UTF-8";
+/* CSS Document */
+
+.bucket{
+  border: 1px solid rgb(49, 53, 61);
+  overflow: hidden;
+  width: 50%;
+  float: center;
+}
+
+.bucket img{
+  float: left;
+  margin: 10px 10px 10px 10px;
+}
+
+
+.bucket-img-stacked {
+  float: none;
+  margin: 0;
+}
+
+.bucket-body{
+  overflow: hidden;
+}
+
+.bucket p{
+  margin: 10px 10px 10px 10px;
+}
+
+.bucket h2{
+  margin: 10px 10px 10px 10px;
+  float: center;
+}
+
+.bucket h3{
+  margin: 10px 10px 10px 10px;
+  float: center;
+}
+
